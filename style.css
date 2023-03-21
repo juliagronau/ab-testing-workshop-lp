@@ -63,9 +63,12 @@ main {
   padding-left: 8rem;
 }
 
-#man-image {
+#man-image-flip {
   -webkit-transform: scaleX(-1);
   transform: scaleX(-1);
+}
+
+.man-image {
   width: 100%;
   height: auto;
   object-fit: contain;
